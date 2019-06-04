@@ -13,6 +13,7 @@ spring:
 ---
 
 spring:
+ #测试环境
  profiles: test
  appliction:
   name: microservicecloud-config-bdqn-test
