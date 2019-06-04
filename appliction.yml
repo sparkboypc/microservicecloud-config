@@ -1,21 +1,20 @@
-spring:
- profiles:
-  active:
+spring: 
+ profiles: 
+  active: 
    - dev
 
 ---
-spring: 
- #开发环境  
- profiles: dev
- appliction:
-  name: microservicecloud-config-bdqn-dev
+spring:  
+  #开发环境  
+  profiles: dev
+  appliction: 
+    name: microservicecloud-config-bdqn-dev
  
 ---
-
-spring:
- #测试环境
- profiles: test
- appliction:
-  name: microservicecloud-config-bdqn-test
+spring: 
+  #测试环境
+  profiles: test
+  appliction: 
+    name: microservicecloud-config-bdqn-test
   
  
